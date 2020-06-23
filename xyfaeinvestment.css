@@ -1,0 +1,54 @@
+#navigation{
+  /*float: right;*/
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  /*margin: .5em 2em*/
+  color: blue;
+}
+#navigation ul{
+  list-style-type: none;
+}
+#navigation ul a{
+  text-decoration: none;
+}
+#mainText{
+  width: 35%;
+  margin: 13em 11% 0 10%;
+  font-family: verdana, sans-serif;
+  font-size: 1em;
+  font-family: cursive;
+}
+#mainText a{
+  color: red;
+
+  background-image: url('greenglobe.png');
+  /*background-size: cover;
+  background-position: 100% 0;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+#xiLogo{
+  width: 15em;
+  margin-top: 1.2em;
+}
+#africaLogo{
+  width: 25em;
+  float: right;
+  margin-top: 10em;
+  margin-right: 10em;
+}
+body{
+  background-color: #purple;
+  /*background-image: url('greenglobe.png');
+  background-size: cover;
+  background-position: 100% 0;
+  background-size: 60%;
+  background-repeat: no-repeat;*/
+
+}
+#pride{
+  color: #549534;
+}
