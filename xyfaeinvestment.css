@@ -14,10 +14,22 @@
 }
 #mainText{
   width: 35%;
-  margin: 13em 11% 0 10%;
-  font-family: verdana, sans-serif;
+  margin: 8em 11% 0 10%;
+  font-family: cursive, verdana, sans-serif ;
   font-size: 1em;
-  font-family: cursive;
+  padding: 5px 5px 5px 20px;
+  /*border: 1px solid grey;*/
+  border-radius: 10px;
+  box-shadow: -10px 10px 20px grey;
+}
+#aWorld{
+  width: 90%;
+  padding: 3%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: brown;
+  box-shadow: -5px 5px 5px grey;
+  color: white;
 }
 #mainText a{
   color: red;
@@ -37,12 +49,12 @@
 #africaLogo{
   width: 25em;
   float: right;
-  margin-top: 10em;
+  margin-top: 9em;
   margin-right: 10em;
 }
 body{
-  background-color: #purple;
-  /*background-image: url('greenglobe.png');
+  /*background-color: #edd3dc;
+  background-image: url('greenglobe.png');
   background-size: cover;
   background-position: 100% 0;
   background-size: 60%;
