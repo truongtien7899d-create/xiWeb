@@ -64,3 +64,34 @@ body{
 #pride{
   color: #549534;
 }
+
+/* Volunteer Page */
+#volunteerCategories{
+  /* width: 70%; */
+  /* margin: auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.volSection{
+  width: 20%;
+  float: left;
+  margin-left: 7%;
+  padding: 2%;
+  text-align: center;
+  background-color: #549534;
+  border-radius: 10%;
+  height: 15em;
+  color: white;
+  font-family: cursive, verdana, sans-serif ;
+  font-size: 1em;
+  box-shadow: -10px 10px 20px grey;
+}
+.volSection:hover{
+  background-color: brown;
+  box-shadow: -10px 20px 20px grey;
+  position: relative;
+  top: -10px;
+}
