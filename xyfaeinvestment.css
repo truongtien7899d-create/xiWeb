@@ -1,11 +1,22 @@
 #navigation{
   /*float: right;*/
   position: absolute;
-  top: 1em;
-  right: 2em;
+  top: 0em;
+  right: 0em;
   /*margin: .5em 2em*/
   color: blue;
+  padding: 1em 2em;
+
 }
+#navigation:hover{
+  background-color: brown;
+  padding-right: 2em;
+  padding-top: .8em;
+  /* border-radius: 2em; */
+  border-bottom-left-radius: 5em;
+  color: white;
+}
+
 #navigation ul{
   list-style-type: none;
 }
